@@ -1,0 +1,13 @@
+# Nmap 7.93 scan initiated Wed May 24 13:00:39 2023 as: nmap -sC -sV -p 65524 -o nmap_sF.log 10.10.2.247
+Nmap scan report for 10.10.2.247
+Host is up (0.16s latency).
+
+PORT      STATE SERVICE VERSION
+65524/tcp open  http    Apache httpd 2.4.43 ((Ubuntu))
+|_http-title: Apache2 Debian Default Page: It works
+|_http-server-header: Apache/2.4.43 (Ubuntu)
+| http-robots.txt: 1 disallowed entry 
+|_/
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 24 13:00:55 2023 -- 1 IP address (1 host up) scanned in 16.21 seconds

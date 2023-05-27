@@ -1,0 +1,2 @@
+/index.html          [32m (Status: 200)[0m [Size: 390]
+/whatever            [36m (Status: 301)[0m [Size: 169][34m [--> http://10.10.2.247/hidden/whatever/][0m

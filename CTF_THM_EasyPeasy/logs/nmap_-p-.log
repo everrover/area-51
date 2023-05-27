@@ -1,0 +1,10 @@
+# Nmap 7.93 scan initiated Wed May 24 12:44:32 2023 as: nmap -p- -o nmap_-p-.log 10.10.2.247
+Nmap scan report for 10.10.2.247
+Host is up (0.16s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+6498/tcp  open  unknown
+65524/tcp open  unknown
+
+# Nmap done at Wed May 24 12:53:28 2023 -- 1 IP address (1 host up) scanned in 535.12 seconds

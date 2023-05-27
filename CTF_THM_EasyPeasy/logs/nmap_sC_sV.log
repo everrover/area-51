@@ -1,0 +1,13 @@
+# Nmap 7.93 scan initiated Wed May 24 12:44:48 2023 as: nmap -sC -sV -o nmap_sC_sV.log 10.10.2.247
+Nmap scan report for 10.10.2.247
+Host is up (0.16s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.16.1
+|_http-server-header: nginx/1.16.1
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: Welcome to nginx!
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 24 12:45:03 2023 -- 1 IP address (1 host up) scanned in 15.49 seconds
